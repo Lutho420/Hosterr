@@ -219,6 +219,9 @@ footer {
 }
 
 @media screen and (max-width: 645px) {
+    body {
+        margin: 1.2em 3em;
+    }
     input {
         margin-bottom: 1em;
         padding-right: 0;
@@ -232,6 +235,8 @@ footer {
     }
 }
 @media screen and (max-width: 460px) {
+    body {
+        margin: 0.85em 1.5em;    }
     .logo {
         flex-direction: column;
     }
